@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(230, 230, 230, 230);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(30, 30, 30);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+}
+
+a:hover {
+  color: rgb(168, 32, 8);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(168, 32, 8);
+  padding: 2px 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 1.8;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+i {
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px
+}
+
+p {
+  text-align: justify;
+  padding: 5px 5px;
+}
+
+#avatar {
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.image-small {
+  width: 150px;
+  height: 187px;
+}
+
+.image-medium {
+  width: 190px;
+  height: 250px;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-space-small {
+  letter-spacing: 2px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+/* --------------------------- */
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
